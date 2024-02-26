@@ -40,6 +40,7 @@ function App() {
       <KeyListener onKeyPress={keyPressHandler}></KeyListener>
       <p className='default-text dark-text'>Score: {score}</p>
       <p className='default-text dark-text'>Type the word below</p>
+      <p className='default-text dark-text'>&#11206;</p>
       <p className='default-text'>{goalWord}</p>
       <WordBox displayText={activeWord}></WordBox>
       <hr className='divider'></hr>
