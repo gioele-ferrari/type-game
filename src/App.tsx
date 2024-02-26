@@ -2,11 +2,12 @@ import { useState, useEffect } from 'react'
 import KeyListener from './components/KeyListener'
 import WordBox from './components/WordBox';
 import wordToGuess from './WordGuess';
+import Footer from './components/Footer';
 
 function App() {
   const [activeWord, setActiveWord] = useState("");
   const [goalWord, setGoalWord] = useState("inizio");
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState(10);
 
   const validCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
@@ -42,6 +43,7 @@ function App() {
       <p className='default-text'>{goalWord}</p>
       <WordBox displayText={activeWord}></WordBox>
       <hr className='divider'></hr>
+      <Footer author='Gioele Ferrari'></Footer>
     </div>
   )
 }
