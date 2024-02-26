@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 function App() {
   const [activeWord, setActiveWord] = useState("");
   const [goalWord, setGoalWord] = useState("inizio");
-  const [score, setScore] = useState(10);
+  const [score, setScore] = useState(0);
 
   const validCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
