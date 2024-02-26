@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .app {
@@ -11,24 +14,37 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
   
   color: #ffffffde;
   background-color: #242424;
 
 }
 
-.word-box {
-  font-size: 3rem;
+.dark-text {
+  color: #2d2d2d !important;
 }
 
-.word-box p {
+.default-text {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.divider {
+  width: 350px;
+  height: 6px;
+  margin-top: 5px;
+  border: none;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+}
+
+.typer {
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  color: #ffffffc0;
+  border-right: 2px solid #ffffffc0;
 }
 
 @keyframes typing {

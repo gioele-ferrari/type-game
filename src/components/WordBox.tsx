@@ -1,8 +1,6 @@
 function WordBox({ displayText } : { displayText: string }) {
     return (
-        <div className='word-box'>
-            <p>&#8205;{displayText}</p>
-        </div>
+        <p className="typer default-text">&#8205;{displayText}</p>
     )
 }
 
