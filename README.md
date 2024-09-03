@@ -1,11 +1,25 @@
 # Typo ✏️🤲
 
-This app was made to practice using React and Typescript through the most used hooks. It's about spelling the word the right way.
+Typo è un'app sviluppata per esercitarsi con React e TypeScript, utilizzando i hook più comuni. Il gioco si basa sullo spelling corretto delle parole per raggiungere il puntaggio più alto.
 
-## How to start? 🚩
+## 🏁 Come iniziare
 
-Just download the project and navigate into the folder type `npm i`, after that just type `npm start` and a local server would be loaded. You can now play the game!
+1. **Clona il repository**: Scarica il progetto sul tuo computer.
+2. **Installa le dipendenze**: Naviga nella cartella del progetto ed esegui `npm install`.
+3. **Avvia il server locale**: Esegui `npm run dev` per avviare il server di sviluppo.
 
-## Future features ⚙️
+Una volta avviato il server, puoi accedere al gioco attraverso il browser e iniziare a divertirti!
 
-This app will not have any further changes because it was designed to be simple and without too many pretensions.
+## 🔧 Funzionalità future
+
+- [ ] Migliorare la grafica e usabilità
+- [ ] Aggiungere le statistiche di gioco
+- [ ] Integrare con delle API il fetch delle parole in modo randomico
+
+## 📋 Note
+
+Per qualsiasi problema o domanda, non esitare a contattare il team di sviluppo.
+
+---
+
+Buon divertimento con il gioco! 🎉
