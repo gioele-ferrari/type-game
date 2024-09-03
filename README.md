@@ -1,6 +1,6 @@
-# Typo ✏️🤲
+# Type Game ✏️🤲
 
-Typo è un'app sviluppata per esercitarsi con React e TypeScript, utilizzando i hook più comuni. Il gioco si basa sullo spelling corretto delle parole per raggiungere il puntaggio più alto.
+Questa è un'app sviluppata per esercitarsi con React e TypeScript, utilizzando i hook più comuni. Il gioco si basa sullo spelling corretto delle parole per raggiungere il puntaggio più alto.
 
 ## 🏁 Come iniziare
 
